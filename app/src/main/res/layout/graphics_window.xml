@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myframelayout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:orientation="horizontal">
+            android:text="@string/prev_state" />
+        <Button
+            android:id="@+id/SH_plot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="doSHPlot"
+            android:text="@string/SH_plot" />
+        <Button
+            android:id="@+id/SI_plot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="doSIPlot"
+            android:text="@string/SI_plot" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/prev_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="prevState"
+            android:text="@string/prev_state" />
+        <Button
+            android:id="@+id/play_pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="toggleAnimation"
+            android:text="@string/start_animation" />
+        <Button
+            android:id="@+id/next_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="nextState"
+            android:text="@string/next_state" />
+    </LinearLayout>
+
+</FrameLayout>
+

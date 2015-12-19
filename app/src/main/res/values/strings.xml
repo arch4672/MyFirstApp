@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">D3Plot</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_read">Read</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_glview">OpenGLActivity</string>
+    <string name="start_animation">Go</string>
+    <string name="pause_animation">Pause</string>
+    <string name="next_state">-----&gt;</string>
+    <string name="prev_state">&lt;-----</string>
+    <string name="SH_plot"> SH </string>
+    <string name="SI_plot"> SI </string>
+    <string name="sled_ptf">/sdcard/Download/sled.ptf</string>
+    <string name="model1">/sdcard/Download/sled.ptf</string>
+    <string name="model2">/sdcard/Download/crush4.ptf</string>
+    <string name="model3">/sdcard/Download/a.ptf</string>
+    <string name="model4">/sdcard/Download/b.ptf</string>
+    <string name="model5">/sdcard/Download/c.ptf</string>
+    <string name="model6">/sdcard/Download/u1b.ptf</string>
+    <string name="model7">/sdcard/Download/front_sled_06.ptf</string>
+
+    <string name="select_file">Select File:</string>
+
+</resources>
